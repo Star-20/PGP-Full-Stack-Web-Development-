@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>IFrame_Coffee</title>
+  </head>
+  <style>
+    h1 {
+      text-align: center;
+      color: blueviolet;
+    }
+    h3 {
+      text-align: center;
+      color: blueviolet;
+    }
+
+    button {
+      display: block;
+      margin: 30px auto;
+      padding: 8px 16px;
+      font-size: 16px;
+      background-color: royalblue;
+      border: none;
+      border-radius: 8px;
+      box-shadow: 2px 2px 2px 2px blue;
+    }
+
+    button:hover {
+      opacity: 0.9;
+      cursor: pointer;
+    }
+    .form {
+      text-align: center;
+    }
+    .MyCoffee {
+      display: block;
+      margin-top: 20px;
+      text-decoration: royalblue;
+      font-size: 20px;
+      text-align: center;
+    }
+  </style>
+  <body>
+    <h1>We're Glad to server you !</h1>
+
+    <br />
+    <a href="https://youtube.com/embed/tONdEMyS9VM" target="Coffee"
+      >Enjoy the Video 📺
+    </a>
+    <a
+      href="http://globaltableadventure.com/recipe/ethiopian-inspired-coffee-ceremony-bunna-ceremony/"
+      target="Coffee"
+      >Read Me 📖
+    </a>
+    <a
+      href="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3305.4885864579783!2d-118.36674208482853!3d34.056987480604576!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80c2b915e9b8ef85%3A0xf0ff075fb5cc8f8b!2s1041%20S%20Fairfax%20Ave%2C%20Los%20Angeles%2C%20CA%2090019!5e0!3m2!1sen!2sus!4v1622694914967!5m2!1sen!2sus"
+      target="Coffee"
+      >Google Map 🗺
+    </a>
+
+    <iframe
+      src="https://youtube.com/embed/tONdEMyS9VM"
+      name="Coffee"
+      width="700px"
+      height="500px"
+    ></iframe>
+
+    <br />
+    <br />
+    <h3>
+      Please fill out the below form to make your reservation.See you soon ☕
+    </h3>
+    <form class="form">
+      <input type="text" required placeholder="Enter Name" />
+      <br />
+      <br />
+      <input
+        type="email"
+        title="No special character"
+        pattern="^[a-zA-Z0-9+_.-]+@[a-zA-Z0-9.-]+$"
+        required
+        placeholder="Enter Email"
+      />
+      <br />
+      <br />
+      <input
+        type="number"
+        max="10"
+        patter="^\d{3}-\d{3}-\d{4}$"
+        required
+        placeholder="Phonenumber"
+      />
+      <br />
+      <br />
+
+      <input type="number" max="20" min="2" required placeholder="Guests" />
+      <br />
+      <br />
+      <input type="date" required placeholder="Date" />
+      <br />
+      <br />
+
+      <input type="Time" required placeholder="Time" />
+      <br />
+      <br />
+      <textarea
+        rows="3"
+        cols="50"
+        placeholder="Any speicall request"
+      ></textarea>
+      <br />
+      <br />
+      <button type="submit">Make Reservation</button>
+    </form>
+
+    <a class="MyCoffee" href="Coffee_Table.html"> Working Hours</a>
+
+    <br />
+    <br />
+  </body>
+</html>
